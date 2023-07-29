@@ -6,5 +6,17 @@ const removeFromArray = function (array, ...itemsToRemove) {
   return array;
 };
 
+// const removeFromArray = function () {
+//   const array = arguments[0];
+//   var args = Array.prototype.slice.call(arguments);
+//   let result = [];
+//   for (let i = 0; i < array.length; i++) {
+//     let item = array[i];
+//     if (!args.includes(item)) {
+//       result.push(item);
+//     }
+//   }
+//   return result;
+// };
 // Do not edit below this line
 module.exports = removeFromArray;
